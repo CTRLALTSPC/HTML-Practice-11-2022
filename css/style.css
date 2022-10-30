@@ -1,0 +1,78 @@
+/* General */
+* { /*remove all margin and padding from page */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Unica One", Arial, Helvetica, sans-serif;
+}
+
+/* CSS Grid */
+
+/*grab main container */
+.coffee-shop-container {
+    display: grid;
+    grid-template-columns: 300px 1fr;   
+    /*give the right one a fractional unit which is remainder of the space*/
+}
+
+.left-nav-container {
+    grid-area: 1 / 1 / 3 / 2;           
+     /*shorthand property grid area*/
+     /* border: 1px solid #000; /*shows grid layout*/
+}
+
+.header {
+    grid-area: 1 / 2 / 2 / 3;   
+    /*starting in first row and second columm; ends in first row, add 2 for that; ends in second column as well; stops before the third column, but write 3 anyways */
+    /* border: 1px solid #000; /*shows grid layout*/
+}
+
+.body {
+    grid-area: 2 / 2 / 3 / 3;  /* starts in second column and second row, finishs in same row too, so it needs to go up by one (3) */
+    /* border: 1px solid #000; /*shows grid layout*/
+}
+
+/* header */
+.header {
+    text-align: center;
+    color: #fff;
+    background-color: #292c30;
+    padding: 50px;
+}
+
+.header-h3 {
+    margin-top: 15px;
+}
+
+/*left nav column */
+
+.left-nav-container {
+    background: #292c30;
+    height: 100vh;  /* view height */
+    width: 300px;
+    position: fixed; /*so the left column doesnt move */
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+    display: block;     /*to center logo */
+    margin: auto;
+    padding: 20px;
+}
+
+/* body */ 
+.body {
+  
+    background-color: #313539; 
+}
+
+.body-main-img {
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    display: block;
+    margin: auto;
+}
