@@ -61,6 +61,39 @@ body {
     display: block;     /*to center logo */
     margin: auto;
     padding: 20px;
+    margin: 15px auto 30px auto; /*15px = top, auto = left, 30px = bottom, right = auto */  
+}
+
+.left-navbar {
+    display: block;
+    text-align: center;
+    list-style: none; /*remove the list style for no bullet points */
+
+} 
+
+.left-navbar li {  /* calling the left nav bar and list tag */
+    padding: 12px;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(82, 82, 82); 
+}
+
+/* a tag for style*/
+.left-navbar li a {
+    color: #fff;
+    text-decoration: none; /* gets rid of underline of text */
+}
+
+.top-nav-item { /*too add border color for top of home button only, otherwise border would add itself twice to the rest of the nav */
+    border-top: 1px solid rgb(82, 82, 82); 
+}
+
+.active {
+    border-right: 3px solid #ab8b65;
+}
+
+.active a { /*for text color of Home button link */ 
+    color: #ab8b65 !important; /*important overrides the default white */
 }
 
 /* body */ 
