@@ -1,7 +1,7 @@
 /* the width property's value to be 80%, 
-to make it 80% the width of its parent element (body).*/ 
+to make it 80% the width of its parent element (body).*/
 /*div {
-  width: 80%; /* the width property's value to be 80%, to make it 80% the width of its parent element (body).*/ 
+  width: 80%; /* the width property's value to be 80%, to make it 80% the width of its parent element (body).*/
 /*  background-color: burlywood;
 } */
 
@@ -25,7 +25,9 @@ h2 {
   font-style: italic;
 }
 
-h1, h2, p {
+h1,
+h2,
+p {
   text-align: center;
 }
 
@@ -54,7 +56,8 @@ hr {
   margin-top: 25px;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: Impact, serif;
 }
 
@@ -65,7 +68,8 @@ h1, h2 {
   font-size: 18px;
 }
 
-.flavor, .dessert {
+.flavor,
+.dessert {
   text-align: left;
   width: 75%;
 }
@@ -100,4 +104,3 @@ a:hover {
 a:active {
   color: brown;
 }
-  
